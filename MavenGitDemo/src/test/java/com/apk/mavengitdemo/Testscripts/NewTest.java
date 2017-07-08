@@ -16,7 +16,7 @@ public class NewTest {
 		driver.get("http://demo.guru99.com/selenium/guru99home/");  
 		String title = driver.getTitle();				 
 		Assert.assertTrue(title.contains("Demo Guru99 Page")); 
-		System.out.println("WebSite title verified.");
+		System.out.println("WebSite title verified ...");
 	}	
 	@BeforeTest
 	public void beforeTest() {	
